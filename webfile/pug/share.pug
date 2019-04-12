@@ -1,0 +1,78 @@
+.masthead.h-auto.mh-auto
+  .mx-auto.text-center.d-none.d-sm-block
+    h1.mx-auto.my-0 matchakon
+    h2.mx-auto.text-black-50.mb-4.texr-share 分享 / SHARE
+section#about.about-section.text-center.bg-location
+  .container.container--wide
+    form.form-inline.d-flex
+      input.form-control.flex-fill.mb-3(placeholder='Search')
+    .image-grid.are-images-unloaded(data-js='image-grid')
+      .image-grid__col-sizer
+      .image-grid__gutter-sizer
+      .image-grid__item(data-toggle='modal', data-target='#exampleModal')
+        img.image-grid__image.rounded(src='img/image-03.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-02.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-01.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-04.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-05.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-06.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-07.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-08.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-09.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-10.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-11.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-12.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-13.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-14.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-15.jpg', alt='cakepic')
+      .image-grid__item
+        img.image-grid__image.rounded(src='img/image-16.jpg', alt='cakepic')
+    .scroller-status
+      .loader-ellips.infinite-scroll-request
+        span.loader-ellips__dot
+        span.loader-ellips__dot
+        span.loader-ellips__dot
+        span.loader-ellips__dot
+      p.scroller-status__message.infinite-scroll-last End of content
+      p.scroller-status__message.infinite-scroll-error No more pages to load
+    p.pagination
+      a.pagination__next(href='page2.html') Next page
+
+#exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        h3#exampleModalLabel.modal-title
+          | 台灣
+          small.text-primary.ml-2 明森宇治抹茶。咖啡手作（大安森林店）
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+      .modal-body
+        .row.align-items-center.no-gutters
+          .col-xl-7.col-lg-7
+            img.img-fluid.mb-3.mb-lg-0(src='img/image-03.jpg', alt='cakepic')
+          .col-xl-5.col-lg-5
+            .featured-text.text-lg-left.ml-3
+              p.text-black-50
+                | 不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文字不知道是否需要一些文
+              ol.list-unstyled
+                li
+                  | 電話：
+                  span.text-black-50 02 2555 5785
+                li
+                  | 地址：
+                  span.text-black-50 106 台北市大安區新生南路 二段30巷1-2號
