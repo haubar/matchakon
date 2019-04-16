@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /var/www/html/matchakon
+    destination: /var/www/matchakon/matchakon
 #hooks:
     #AfterInstall:
     #    - location: codedeploy/com.example.identity/01-copy-release.sh
