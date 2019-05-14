@@ -1,2 +1,2 @@
 # matchakon
-matchakon template
+matchakon template view
