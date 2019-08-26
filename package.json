@@ -1,0 +1,6 @@
+{
+  "name": "matchakon",
+  "scripts": {
+    "dev": "nuxt"
+  }
+}
