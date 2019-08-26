@@ -2,5 +2,8 @@
   "name": "matchakon",
   "scripts": {
     "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.9.1"
   }
 }
